@@ -1,1 +1,1 @@
-asdf
+Practice deep learning.
