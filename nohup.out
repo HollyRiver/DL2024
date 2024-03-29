@@ -1,0 +1,34 @@
+[I 2024-03-29 04:32:23.652 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-03-29 04:32:23.665 ServerApp] Package jupyter_lsp took 0.0119s to import
+[W 2024-03-29 04:32:23.665 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-29 04:32:23.670 ServerApp] Package jupyter_server_terminals took 0.0047s to import
+[I 2024-03-29 04:32:23.670 ServerApp] Package notebook took 0.0000s to import
+[I 2024-03-29 04:32:23.672 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-03-29 04:32:23.672 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-03-29 04:32:24.433 ServerApp] Package panel.io.jupyter_server_extension took 0.7610s to import
+[I 2024-03-29 04:32:24.433 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-03-29 04:32:24.437 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-03-29 04:32:24.440 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-03-29 04:32:24.443 ServerApp] notebook | extension was successfully linked.
+[I 2024-03-29 04:32:24.731 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-03-29 04:32:24.731 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-03-29 04:32:24.747 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-03-29 04:32:24.748 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-03-29 04:32:24.749 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-03-29 04:32:24.750 LabApp] JupyterLab extension loaded from /root/anaconda3/lib/python3.11/site-packages/jupyterlab
+[I 2024-03-29 04:32:24.750 LabApp] JupyterLab application directory is /root/anaconda3/share/jupyter/lab
+[I 2024-03-29 04:32:24.751 LabApp] Extension Manager is 'pypi'.
+[I 2024-03-29 04:32:24.752 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-03-29 04:32:24.754 ServerApp] notebook | extension was successfully loaded.
+[I 2024-03-29 04:32:24.755 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-03-29 04:32:24.755 ServerApp] Serving notebooks from local directory: /root/DL2024
+[I 2024-03-29 04:32:24.755 ServerApp] Jupyter Server 2.10.0 is running at:
+[I 2024-03-29 04:32:24.755 ServerApp] http://1711c9b98586:44107/lab
+[I 2024-03-29 04:32:24.755 ServerApp]     http://127.0.0.1:44107/lab
+[I 2024-03-29 04:32:24.755 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-03-29 04:32:24.894 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-03-29 04:32:43.808 LabApp] Could not determine jupyterlab build status without nodejs
